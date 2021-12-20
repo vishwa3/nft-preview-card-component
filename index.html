@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+
+      body {
+        background-color: hsl(217, 54%, 11%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+
+      .box {
+        width: 250px;
+        height: 430px;
+        background-color: hsl(216, 50%, 16%);
+        border-radius: 2%;
+      }
+      #equilibrium {
+        width: 230px;
+        padding: 10px 10px 0 10px;
+        border-radius: 15px;
+      }
+
+      .container {
+        display: flex;
+        justify-content: space-between;
+      }
+      #name {
+        color: hsl(216, 16%, 70%);
+        font-weight: 600;
+      }
+      #heading {
+        color: hsl(0, 0%, 100%);
+        padding-left: 10px;
+        font-weight: 600;
+      }
+      #name:hover,
+      #heading:hover {
+        color: hsl(178, 100%, 50%);
+        cursor: pointer;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="box">
+      <img id="equilibrium" src="./images/image-equilibrium.jpg" />
+      <p id="heading">Equilibrium #3429</p>
+      <p
+        style="
+          color: hsl(216, 15%, 51%);
+          padding-left: 10px;
+          font-weight: 600;
+          font-size: small;
+        "
+      >
+        Our Equilibrium collection promotes balance and calm.
+      </p>
+      <div class="container" style="padding: 0 10px 0 10px">
+        <div>
+          <img
+            src="images/icon-ethereum.svg"
+            style="height: 12px; vertical-align: middle"
+          />
+          <p
+            style="color: hsl(178, 100%, 50%); font-size: 11px; display: inline"
+          >
+            0.041ETH
+          </p>
+        </div>
+        <div>
+          <img
+            src="images/icon-clock.svg"
+            style="height: 12px; vertical-align: middle"
+          />
+          <p
+            style="
+              color: hsl(216, 15%, 51%);
+              font-size: 11px;
+              display: inline;
+              font-weight: 900;
+            "
+          >
+            3 days left
+          </p>
+        </div>
+      </div>
+
+      <hr
+        style="margin: 15px 10px 10px 10px; border-color: hsl(215, 32%, 27%)"
+      />
+
+      <img
+        src="images/image-avatar.png"
+        style="height: 25px; padding-left: 10px; vertical-align: middle"
+      />
+      <p
+        style="
+          display: inline;
+          color: hsl(216, 15%, 51%);
+          font-size: small;
+          font-weight: 900;
+        "
+      >
+        Creation of
+        <span id="name">Jules Wyvern</span>
+      </p>
+    </div>
+  </body>
+</html>
