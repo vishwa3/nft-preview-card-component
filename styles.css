@@ -1,0 +1,98 @@
+body {
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.box {
+  width: 250px;
+  height: 430px;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 2%;
+}
+.inner-container {
+  padding: 10px;
+}
+.container-image {
+  position: relative;
+}
+
+.main-image {
+  width: 230px;
+  border-radius: 15px;
+}
+
+.color-image {
+  position: absolute;
+  top: 0;
+  width: 230px;
+  height: 100%;
+  border-radius: 15px;
+}
+
+.color-image:hover {
+  background: url("/images/icon-view.svg") hsl(178, 100%, 50%) no-repeat center;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-title p:first-of-type {
+  color: hsl(0, 0%, 100%);
+
+  font-weight: 600;
+}
+
+.container-title p:nth-child(2) {
+  color: hsl(216, 15%, 51%);
+
+  font-weight: 600;
+  font-size: small;
+}
+.price img,
+.time img {
+  height: 12px;
+  vertical-align: middle;
+}
+.price p {
+  color: hsl(178, 100%, 50%);
+  font-size: 11px;
+  display: inline;
+}
+.time p {
+  color: hsl(216, 15%, 51%);
+  font-size: 11px;
+  display: inline;
+  font-weight: 900;
+}
+.container-line {
+  margin: 15px 0px 10px 0px;
+  border-color: hsl(215, 32%, 27%);
+}
+.author img {
+  height: 25px;
+  vertical-align: middle;
+}
+.author p {
+  display: inline;
+  color: hsl(216, 15%, 51%);
+  font-size: small;
+  font-weight: 900;
+}
+
+.author span {
+  color: hsl(216, 16%, 70%);
+  font-weight: 600;
+}
+
+.author span:hover,
+.container-title p:first-of-type:hover {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
