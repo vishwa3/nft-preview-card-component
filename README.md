@@ -1,3 +1,1 @@
-# Frontend Mentor - NFT preview card component
-
-I have attempted the task using HTML and CSS and got to learn CSS concepts
+Live project - https://vishwa3.github.io/nft-preview-card-component/
